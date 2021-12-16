@@ -1,0 +1,67 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    height: 100vh;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    width: 700px;
+    margin: 20px auto;
+    background-color: cyan;
+}
+
+.form1 {
+    margin-left: 30px;
+}
+
+.myForm .input {
+    margin: 20px 0;
+    border-bottom: 0.8px solid rgb(163, 158, 158);
+    padding: 20px 0;
+}
+
+input {
+    border: none;
+    outline: none;
+    margin-bottom: -10px;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 0 4px;
+}
+
+.sign-up {
+    width: 200px;
+    outline: none;
+    border: none;
+    background-color: rgb(150, 71, 84);
+    color: white;
+    font-size: 19px;
+    line-height: 30px;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.sign-up:hover {
+    background-color: rgb(221, 101, 121);
+}
+
+h1 {
+    font-weight: 800;
+}
+
+.my-error {
+    color: red;
+    background-color: #fff;
+}
+
+.pswderror {
+    color: green;
+}

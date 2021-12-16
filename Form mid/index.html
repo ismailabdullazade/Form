@@ -1,0 +1,78 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Form1</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="pic">
+            <img src="./images/meandzizi.jpeg" alt="">
+        </div>
+
+
+
+
+
+        <div class="form1">
+            <h1>Sign up</h1>
+
+            <form class="myForm" action="#">
+                <div class="name input">
+                    <label for="name">Full Name</label><br><br>
+                    <input id="name" type="text" placeholder="Name..." required minlength="2" maxlength="50">
+                </div>
+
+
+                <div class="email input">
+                    <label for="email">Email</label><br><br>
+                    <input id="email" type="email" placeholder="Email address..." required>
+                </div>
+
+
+                <div class="username input">
+                    <label for="username">Username</label><br><br>
+                    <input id="username" type="text" placeholder="Username..." required minlength="2" maxlength="50">
+                </div>
+
+
+                <div class="password input">
+                    <label for="password">Password</label><br><br>
+                    <input id="password" type="password" placeholder="*********" required minlength="3"><br><br>
+                    <span class="pswderror"></span>
+                </div>
+
+
+                <div class="passwordrepeat input">
+                    <label for="passwordRepeat">Repeat Password</label><br><br>
+                    <input id="passwordRepeat" type="password" placeholder="*********" required>
+                </div><br>
+
+                <input type="checkbox" required>
+                <label for="">I agree to the Terms of User</label><br><br>
+
+                <button class="sign-up" type="submit">Sign Up</button><br>
+
+                <span class="my-error"></span>
+
+
+
+
+
+            </form><br>
+
+        </div>
+
+
+    </div>
+
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
